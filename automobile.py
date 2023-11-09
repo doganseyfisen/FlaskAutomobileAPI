@@ -51,7 +51,7 @@ class Automobile(Resource):
         return AUTOMOBILES[automobile_id], 201
 
 # List of Automobiles
-# shows a list of all automobiles and lets us post to add new automobiles
+## This shows a list of all automobiles and lets us post to add new automobiles
 class ListOfAutomobile(Resource):
     def get(self):
         return AUTOMOBILES
